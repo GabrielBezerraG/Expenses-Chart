@@ -25,13 +25,13 @@ export const StyledMain = styled.main`
 
    .month__left {
 
-      h3 {
+      h2 {
          color: var(--grey);
          font-size: 0.85rem;
          margin-bottom: 0.65rem;
       }
 
-      h4 {
+      h3 {
          font-size: 1.6rem;
          font-weight: 700;
          letter-spacing: 0.5px;
@@ -42,7 +42,7 @@ export const StyledMain = styled.main`
       text-align: end;
       align-self: flex-end;
 
-      h4 {
+      h3 {
          font-weight: 700;
          font-size: 0.85rem;
          margin-bottom: 0.1rem;
@@ -68,11 +68,11 @@ export const StyledMain = styled.main`
 
       .month__left {
 
-         h3 {
+         h2 {
             font-size: 1.01rem;
          }
 
-         h4 {
+         h3 {
             font-size: 2.65rem;
             letter-spacing: -0.05px;
          }
@@ -81,7 +81,7 @@ export const StyledMain = styled.main`
       .month__right {
          margin-bottom: 0.2rem;
 
-         h4 {
+         h3 {
             font-size: 1.025rem;
             margin-bottom: 0.35rem;
          }

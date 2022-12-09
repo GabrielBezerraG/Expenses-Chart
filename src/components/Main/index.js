@@ -9,11 +9,11 @@ export default function Main() {
          <div className="horizontal-line" />
          <div className="month">
             <div className="month__left">
-               <h3>Total this month</h3>
-               <h4>$478.33</h4>
+               <h2>Total this month</h2>
+               <h3>$478.33</h3>
             </div>
             <div className="month__right">
-               <h4>+2.4%</h4>
+               <h3>+2.4%</h3>
                <span>from last month</span>
             </div>
          </div>

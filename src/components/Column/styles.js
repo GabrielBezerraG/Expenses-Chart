@@ -11,7 +11,7 @@ export const StyledColumn = styled.li `
    .column__bar {
       display: inline-block;
       width: 33px;
-      height: ${(props) => props.height};
+      height: ${(props) => props.barHeight};
       border-radius: 3px;
       background-color: var(--soft-red);
       transition: filter 100ms;

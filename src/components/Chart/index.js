@@ -9,12 +9,13 @@ export default function Chart() {
    return (
       <StyledChart>
          <ul>
-            {data.map(item => {
-               const height = `${(item.amount * 2.85).toFixed(2)}px`;
+            {data.map(item => {               
+               const barHeight = `${(item.amount * 2.85).toFixed(2)}px`;
+
                return <Column 
                   key={item.day} 
                   currentDay={currentDay === item.index ? true : false}
-                  height={height} 
+                  barHeight={barHeight} 
                   day={item.day} 
                   amount={item.amount} />
             })}
